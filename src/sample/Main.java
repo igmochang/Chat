@@ -1,5 +1,6 @@
 package sample;
 
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -14,10 +15,15 @@ public class Main extends Application {
         primaryStage.setTitle("Chat Mieo");
         primaryStage.setScene(new Scene(root, 500, 400));
         primaryStage.show();
+        System.out.println(Servidor.Puerto);
+
+
+
     }
 
 
     public static void main(String[] args) {
+
         launch(args);
     }
 }
